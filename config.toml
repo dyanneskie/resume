@@ -1,0 +1,245 @@
+# Page settings
+
+baseurl = "http://example.org/"
+languageCode = "en-us"
+title = "Dianna Deyto"
+theme = "hugo-orbit-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+[params]
+
+# Meta
+    description = "Hugo Responsive Resume/CV Theme for Developers"
+    author = "Pavel Kanyshev"
+
+# Theme styles
+
+    # The original template comes with 6 colour schemes. You may choose styles below.
+    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+    # are available. Also the source LESS files are included so
+    # it’s quick and easy to change the styling and colour scheme.
+
+    styles = "styles.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "Dianna Deyto"
+        tagline = "Senior Software Tester"
+        avatar = "profile.png"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: dyanneskie@gmail.com"
+        title = "dyanneskie@gmail.com"
+
+        [[params.contact.list]]
+        class = "phone"
+        icon = "fa-phone"
+        url = "tel:(+65)96674135"
+        title = "(+65)96674135"
+
+       # [[params.contact.list]]
+       # class = "website"
+       # icon = "fa-globe"
+       # url = "//portfoliosite.com"
+       # title = "portfoliosite.com"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "https://www.linkedin.com/in/dianna-deyto-b405b097/"
+        title = "linkedin.com/in/dianna-deyto"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/dyanneskie"
+        title = "github.com/dyanneskie"
+
+        # [[params.contact.list]]
+        # class = "twitter"
+        # icon = "fa-twitter"
+        # url = "//twitter.com/username"
+        # title = "@twittername"
+
+    # Education section
+    [params.education]
+        enable = true
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "BSc in Information Technology"
+        college = "Asian College of Science and Technology"
+        dates = "1999 - 2002"
+
+      #  [[params.education.list]]
+      #  degree = "BSc in Applied Mathematics"
+      #  college = "Bristol University"
+      #  dates = "2007 - 2011"
+
+    # Languages section
+    [params.language]
+        enable = true
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "Filipino"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Professional"
+
+       # [[params.language.list]]
+       # language = "Russian"
+       # level = "Professional"
+
+    # Interests section
+   # [params.interests]
+    #    enable = true
+      #  title = "Interests"
+
+     #  [[params.interests.list]]
+     #   interest = "Climbing"
+
+     #   [[params.interests.list]]
+     #   interest = "Snowboarding"
+
+     #   [[params.interests.list]]
+     #   interest = "Cooking"
+
+# Main body sections
+
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "Career Profile"
+        summary = "An Information Technology professional with twelve years' experience in the software testing industry, I have worked on payment, remittance, investment trading, data warehousing projects on  web and mobile platforms."
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Software Tester"
+        dates = "2018 - 2019"
+        company = "A-IT Software Services Pte., Ltd., Singapore"
+        details = "- Coordinates with onshore and offshore team. \n- Responsible in test case preparation and end to end UAT execution.\n- Attend daily scrum meeting.\n- Responsible in logging defects, retesting and defect closure.\n- Preparation of test summary report.\n- Performed regression, pilot and production verification."
+
+        [[params.jobs.list]]
+        position = "Senior Testing Engineer"
+        dates = "2015 - 2018"
+        company = "Comtel Solutions Pte., Ltd., Singapore"
+        details = "- Identify and analyse business requirements. \n- Responsible for test case design, procedures and execution for end to end UAT stage. \n- Reviewing test cases and test results for manual and automated testing. \n- Monitor the scheduling and readiness of test environments (including interfaces and data setup) for each test stage. \n- Coordinate with interfacing systems and teams for UAT activities. \n- Support in Defect Management process and preparation of Test Summary Report."
+
+
+        [[params.jobs.list]]
+        position = "QA Tester"
+        dates = "2014 - 2015"
+        company = "Genpact Headstrong Capital Markets, Philippines"
+        details = "- Work with onshore of offshore team. \n- Analyse the requirements in data warehousing to distinguish testing scope. \n- Create test cases and approach for UAT stage. \n- Run automation script via Control M job and verify test results. \n- Perform verification of production fixes and regression testing. \n- Responsible in logging defects found during testing. \n- Participate in daily stand up."
+
+
+        [[params.jobs.list]]
+        position = "Software Engineer"
+        dates = "2010 - 2014"
+        company = "Optimum Solutions Pte., Ltd., Singapore"
+        details = "- Create test cases and test data from the understanding of FSD. \n- Execute test cases and ensure all the requirements meet throughout the test execution. \n- Carry out batch file run and execute functional and back-end testing using AIX, Unix tools, Oracle DB, and IBM Message Queue. \n- Liaise with onshore and offshore team. \n- Provides support and coordinates with interfacing systems and client for end to end testing during UAT phase. \n- Track the progress and report testing activities, including testing results and defects encountered, their status and resolved in a timely manner. \n- Perform retesting of program fixes and regression testing. \n- Responsible in obtaining UAT sign-off, prepare release notes and handover documents for the scheduled implementation to production."
+
+
+        [[params.jobs.list]]
+        position = "Senior System Support Specialist"
+        dates = "2005 - 2010"
+        company = "Philippine Business Bank – A Savings Bank, Philippines"
+        details = "- Preparation of test cases and verify that bank’s policy and requirements are met. \n- Perform Software Integration Testing. \n- Assists and coordinates with the system vendor and the users throughout the UAT stage. \n- Reported defects are track, verify and resolve on time. \n- Provide a walk-through and training for the functionality of the system to users. \n- Perform regression testing. \n- Preparation of test summary report. \n- Provides technical support on the acquired system of the bank. \n- Coordinates with the Network Sector during hardware/software installation/testing of new update. "
+
+    # Projects section
+    [params.projects]
+        enable = true
+        icon = "fa-archive"
+        title = "Projects"
+        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+
+        [[params.projects.list]]
+        title = "Hugrid"
+        url = "https://github.com/aerohub/hugrid"
+        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+
+        [[params.projects.list]]
+        title = "Simple FAQ Theme for Hugo"
+        url = "https://github.com/aerohub/hugo-faq-theme"
+        tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
+
+        [[params.projects.list]]
+        title = "Hugo Identity"
+        url = "https://github.com/aerohub/hugo-identity-theme"
+        tagline = "Little profile/card-style template for Hugo."
+
+        [[params.projects.list]]
+        title = "Orbit"
+        url = "https://github.com/aerohub/hugo-orbit-theme"
+        tagline = "Hugo Resume/CV Theme for Developers."
+
+        [[params.projects.list]]
+        title = "Me"
+        url = "https://github.com/aerohub/hugo-me-theme"
+        tagline = "A simple responsive Hugo theme for personal site."
+
+    # Skills section
+    [params.skills]
+        enable = true
+        icon = "fa-rocket"
+        title = "Skills & Proficiency"
+
+        [[params.skills.list]]
+        skill = "Python & Django"
+        level = "98%"
+                
+        [[params.skills.list]]
+        skill = "Javascript & jQuery"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "Angular"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "HTML5 & CSS"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Ruby on Rails"
+        level = "75%"
+
+        [[params.skills.list]]
+        skill = "Sketch & Photoshop"
+        level = "60%"
+
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    # 
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = ""
