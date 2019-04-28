@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "http://example.org/"
+baseurl = "https://dyanneskie.github.io/"
 languageCode = "en-us"
 title = "Dianna Deyto"
 theme = "hugo-orbit-theme"
@@ -77,7 +77,7 @@ disable404 = true
     # Education section
     [params.education]
         enable = true
-        title = "Education"
+        title = "Qualifications"
 
         [[params.education.list]]
         degree = "BSc in Information Technology"
@@ -85,9 +85,9 @@ disable404 = true
         dates = "1999 - 2002"
 
       #  [[params.education.list]]
-      #  degree = "BSc in Applied Mathematics"
-      #  college = "Bristol University"
-      #  dates = "2007 - 2011"
+      #  degree = "ISTQB Certified Tester Foundation Level – Certificate No. 2018026"
+      #  college = "Singapore Testing Qualifications Board"
+      #  dates = "20th June 2018"
 
     # Languages section
     [params.language]
@@ -129,7 +129,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "An Information Technology professional with twelve years' experience in the software testing industry, I have worked on payment, remittance, investment trading, data warehousing projects on  web and mobile platforms."
+        summary = "An Information Technology professional with twelve years' experience in the software testing industry, I have worked on payment, remittance, investment trading, data warehousing projects on  web and mobile platforms. Has a keen eye to details and very passionate about quality. Currently, challenging myself to enhance my skills by learning new technologies and tools."
 
     # Experiences section
     [params.experiences]
@@ -172,7 +172,7 @@ disable404 = true
 
     # Projects section
     [params.projects]
-        enable = true
+        enable = false
         icon = "fa-archive"
         title = "Projects"
         intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
@@ -209,28 +209,40 @@ disable404 = true
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "Python & Django"
-        level = "98%"
+        skill = "Java"
+        level = "75%"
                 
         [[params.skills.list]]
-        skill = "Javascript & jQuery"
-        level = "98%"
-
-        [[params.skills.list]]
-        skill = "Angular"
-        level = "95%"
-
-        [[params.skills.list]]
-        skill = "HTML5 & CSS"
-        level = "95%"
-
-        [[params.skills.list]]
-        skill = "Ruby on Rails"
+        skill = "Javascript"
         level = "75%"
 
         [[params.skills.list]]
-        skill = "Sketch & Photoshop"
-        level = "60%"
+        skill = "SQL"
+        level = "75%"
+
+        [[params.skills.list]]
+        skill = "Selenium"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "AIX, Unix & Message Queue"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "Postman"
+        level = "75%"
+
+        [[params.skills.list]]
+        skill = "Agile & Waterfall Methodoly"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "JIRA, HPQC & Confluence"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "WIndows, Linux, iOS & Android"
+        level = "95%"     
 
     # Footer section
 
