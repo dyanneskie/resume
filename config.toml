@@ -84,10 +84,10 @@ disable404 = true
         college = "Asian College of Science and Technology"
         dates = "1999 - 2002"
 
-      #  [[params.education.list]]
-      #  degree = "ISTQB Certified Tester Foundation Level – Certificate No. 2018026"
-      #  college = "Singapore Testing Qualifications Board"
-      #  dates = "20th June 2018"
+        [[params.education.list]]
+        degree = "ISTQB Certified Tester Foundation Level – Certificate No. 2018026"
+        college = "Singapore Testing Qualifications Board"
+        dates = "20th June 2018"
 
     # Languages section
     [params.language]
